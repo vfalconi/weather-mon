@@ -1,0 +1,30 @@
+{
+  "name": "weather-mon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vfalconi/weather-mon.git"
+  },
+  "keywords": [
+    "weather",
+    "nws",
+    "tempest"
+  ],
+  "author": "Vincent Falconi",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.0",
+    "airnow": "git+https://github.com/vfalconi/airnow",
+    "kdljs": "^0.1.5",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

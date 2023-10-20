@@ -1,0 +1,39 @@
+app {
+	environment "production"
+	name "weather-mon"
+}
+
+influxdb {
+	token "xxx"
+	endpoint "localhost"
+	org "tycho"
+	bucket "bucketnamehere"
+}
+
+nws {
+	ua_email "example@example.org"
+	gauges {
+		"xxxxx"
+		"xxxxx"
+		"xxxxx"
+	}
+	stations {
+		"xxxxx"
+		"xxxxx"
+	}
+}
+
+airnow {
+	apikey "xxx"
+}
+
+postalCodes {
+	"10001" offset="-0500"
+}
+
+tempest {
+	token "xxxxx"
+	stations {
+		"xxxxx"
+	}
+}
